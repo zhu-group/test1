@@ -5,6 +5,18 @@ output:
     df_print: paged
 ---
 
-**Computing and Programming for Environmental Research (ESE5023)**  
-https://zhu-group.github.io/ese5023  
+# Show R script only
 
+```{r,eval=F}
+x <- runif(10,0,1)
+y <- runif(10,0,1)
+plot(x,y,type="p")
+```
+
+# Show R script and its results
+
+```{r}
+x <- runif(10,0,1)
+y <- runif(10,0,1)
+plot(x,y,type="p")
+```
