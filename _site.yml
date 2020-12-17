@@ -4,6 +4,8 @@ navbar:
   title: "xxx's website"
   type: inverse
   left:
+    - text: "Home"
+      href: index.html
     - text: "Page1"
       href: Page1.html
     - text: "Page2"
